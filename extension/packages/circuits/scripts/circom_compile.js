@@ -9,7 +9,7 @@ const __dirname = dirname(__filename);
 const args = process.argv.slice(2);
 if (args.length === 0) {
   console.error(
-    "❌ Please provide a circuit name: node circom-compile.js <circuitName>"
+    "❌ Please provide a circuit name: node circom_compile.js <circuitName>"
   );
   process.exit(1);
 }

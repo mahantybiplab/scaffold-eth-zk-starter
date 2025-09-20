@@ -11,7 +11,7 @@ const require = createRequire(import.meta.url);
 const args = process.argv.slice(2);
 if (args.length === 0) {
   console.error(
-    "❌ Please provide a circuit name: node generate-witness.js <circuitName>"
+    "❌ Please provide a circuit name: node generate_witness.js <circuitName>"
   );
   process.exit(1);
 }

@@ -13,7 +13,7 @@ async function setup() {
   const args = process.argv.slice(2);
   if (args.length === 0) {
     console.error(
-      "❌ Please provide a circuit name: node trusted-setup.js <circuitName>"
+      "❌ Please provide a circuit name: node trusted_setup.js <circuitName>"
     );
     process.exit(1);
   }

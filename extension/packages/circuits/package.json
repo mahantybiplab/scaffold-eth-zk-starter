@@ -1,0 +1,18 @@
+{
+  "name": "@se-2/circuits",
+  "type": "module",
+  "scripts": {
+    "circom-compile": "node scripts/circom_compile.js",
+    "generate-witness": "node scripts/generate_witness.js",
+    "trusted-setup": "node scripts/trusted_setup.js",
+    "generate-proof": "node scripts/generate_proof.js",
+    "verify-proof": "node scripts/verify_proof.js",
+    "generate-sol-verifier": "node scripts/generate_solidityVerifier.js",
+    "move-file": "node scripts/moveFiles.js",
+    "zk-pipeline": "node scripts/zk_pipeline.js",
+    "circom-clean": "rm -rf build"
+  },
+  "devDependencies": {
+    "snarkjs": "^0.7.0"
+  }
+}
